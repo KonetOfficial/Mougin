@@ -1,23 +1,27 @@
 {
   "name": "mougin",
   "version": "1.0.0",
-  "description": "Pack NPM qui obtient des informations d'un anime",
+  "description": "Pack NPM pour obtenir des informations sur un anime",
+  "main": "mougin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Hi hi"
   },
-  "keywords": ["anime", "db", "konet", "anime-db"],
-  "author": "konetapack",
-  "license": "ISC",
+  "keywords": [
+    "mougin",
+    "anime",
+    "db",
+    "konet"
+  ],
   "dependencies": {
-    "node-fetch": "^3.2.6"
-  }
-  "repository": {
-		"type": "git",
-		"url": "https://github.com/KonetOfficial/Mougin.git"
-	}
+    "request": "^2.79.0"
+  },
   "bugs": {
     "url": "https://github.com/KonetOfficial/Mougin/issues"
   },
-  "homepage": "https://github.com/KonetOfficial/Mougin"
-}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonetOfficial/Mougin.git"
+  },
+  "author": "konetapack",
+  "license": "ISC"
 }
