@@ -1,0 +1,14 @@
+{
+  "name": "mougin",
+  "version": "1.0.0",
+  "description": "Pack NPM qui obtient des informations d'un anime",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["anime", "db", "konet", "anime-db"],
+  "author": "konetapack",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
