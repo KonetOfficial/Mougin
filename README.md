@@ -1,5 +1,4 @@
-Un pack NPM pour obtenir des informations sur un animé
-
+Un pack NPM pour obtenir des informations sur un anime
 # Installation
 ```npm
 npm i mougin
@@ -35,9 +34,13 @@ mougin.list().then(animes => {
 |`image`|L'image correspondante avec l'anime|String|
 |`poster`|Le poster, optionel pour les fonds|String|
 |`keywords`|Les mots clés|Array|
+|`studio`|Le studio d'animation|String|
 |`last`|Si l'anime est récent ou non|Boolean|
+|`start`|La date de début|Number|
+|`end`|La date de fin|Number|
 |`genre`|Le/Les genre(s) de l'anime|Array|
 |`theme`|Le/Les thème(s) de l'anime|Array|
+
 
 
 # Les défauts
