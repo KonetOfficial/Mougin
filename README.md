@@ -1,7 +1,12 @@
-# Mougin
-Un Pack NPM pour obtenir des informations sur un anime
+Un pack NPM pour obtenir des informations sur un animé
 
-Fonctions:
+# Installation
+```npm
+npm i mougin
+```
+# Fonctions
+
+Obtenir les informations d'un anime (Soyez précis lors de votre recherche, certains possède des aliases, par exemple SB69 ou SAO, si il y a plusieurs données avec les mêmes aliases, tentez une recherche plus précise avec le vrai titre, surtout si il y a plusieurs saisons)
 
 ```javascript
 const mougin = require("mougin");
@@ -10,6 +15,31 @@ mougin.anime("nom").then(anime => {
   console.log(anime[0])
 });
 ```
+
+Obtenir la liste entière des animes sur la base de données
+```javascript
+const mougin = require("mougin");
+
+mougin.list().then(animes => {
+  console.log(animes)
+});
+```
+
+# Les informations
+|Propriétés|Description|Type| 
+|---|---|---|
+|`title`|Le titre normal|String|
+|`title_jp`|Le titre en caractère japonais|String|
+|`title_url`|Le titre mais plus utilisé pour les url (https://example.com/showbyrock)|String|
+|`synopsis`|Le synopsis (la description)|String|
+|`image`|L'image correspondante avec l'anime|String|
+|`poster`|Le poster, optionel pour les fonds|String|
+|`keywords`|Les mots clés|Array|
+|`last`|Si l'anime est récent ou non|Boolean|
+|`genre`|Le/Les genre(s) de l'anime|Array|
+|`theme`|Le/Les thème(s) de l'anime|Array|
+
+
 # Les défauts
 Ce pack est encore en développement et ne comporte pas toute les fonctions.
 La base de donnée est encore incomplète
