@@ -11,4 +11,13 @@
   "dependencies": {
     "node-fetch": "^3.2.6"
   }
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/KonetOfficial/Mougin.git"
+	}
+  "bugs": {
+    "url": "https://github.com/KonetOfficial/Mougin/issues"
+  },
+  "homepage": "https://github.com/KonetOfficial/Mougin"
+}
 }
