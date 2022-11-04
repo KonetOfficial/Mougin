@@ -12,9 +12,6 @@
     "db",
     "konet"
   ],
-  "dependencies": {
-    "request": "^2.79.0"
-  },
   "bugs": {
     "url": "https://github.com/KonetOfficial/Mougin/issues"
   },
@@ -23,5 +20,8 @@
     "url": "git+https://github.com/KonetOfficial/Mougin.git"
   },
   "author": "konetapack",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }
